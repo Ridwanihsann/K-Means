@@ -25,3 +25,4 @@ Untuk menjalankan notebook ini, pastikan Anda telah menginstal *library* berikut
 7. **Visualisasi Hasil:** Menampilkan *scatter plot* dari hasil kluster beserta letak titik pusat (*centroid*) masing-masing kluster.
 
 ## Hasil Visualisasi
+<img width="616" height="489" alt="image" src="https://github.com/user-attachments/assets/59786814-9858-4515-9922-66ec6657f78f" />
