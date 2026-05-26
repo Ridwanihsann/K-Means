@@ -33,6 +33,12 @@ Berdasarkan visualisasi *scatter plot* antara kecepatan (*speed*) dan jarak (*di
 * **Cluster 2 (Jarak Menengah - Kecepatan Sedang):** Kelompok data yang berada di tengah. Merepresentasikan pola mobilitas urban (perkotaan) yang normal dengan jarak tempuh dan kecepatan yang cukup stabil.
 * **Cluster 3 (Jarak Jauh - Kecepatan Tinggi):** Titik data yang lebih menyebar ke arah kanan dan atas. Kelompok ini mengindikasikan perjalanan melalui jalur cepat, jalan tol, atau perjalanan antar-kota dengan durasi dan rute yang panjang.
 
+<br>
+
+---
+
+<br>
+
 # Implementasi K-Means Clustering: Credit Card Dataset
 
 ## Deskripsi Proyek
