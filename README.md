@@ -27,6 +27,11 @@ Untuk menjalankan notebook ini, pastikan Anda telah menginstal *library* berikut
 ## Hasil Visualisasi
 <img width="695" height="547" alt="image" src="https://github.com/user-attachments/assets/653903a3-6c16-4fb5-a858-f24807a3e531" />
 
+### Analisis Hasil Clustering
+Berdasarkan visualisasi *scatter plot* antara kecepatan (*speed*) dan jarak (*distance*), algoritma K-Means membagi data perjalanan menjadi 3 kelompok utama:
+* **Cluster 1 (Jarak Pendek - Kecepatan Rendah):** Titik data yang terkonsentrasi di area sudut kiri bawah. Kelompok ini merepresentasikan rute perjalanan pendek dengan kecepatan lambat, yang sangat mungkin berupa aktivitas berjalan kaki, bersepeda, atau berkendara di area padat lalu lintas.
+* **Cluster 2 (Jarak Menengah - Kecepatan Sedang):** Kelompok data yang berada di tengah. Merepresentasikan pola mobilitas urban (perkotaan) yang normal dengan jarak tempuh dan kecepatan yang cukup stabil.
+* **Cluster 3 (Jarak Jauh - Kecepatan Tinggi):** Titik data yang lebih menyebar ke arah kanan dan atas. Kelompok ini mengindikasikan perjalanan melalui jalur cepat, jalan tol, atau perjalanan antar-kota dengan durasi dan rute yang panjang.
 
 # Implementasi K-Means Clustering: Credit Card Dataset
 
@@ -64,3 +69,10 @@ Untuk menjalankan notebook ini, pastikan Anda telah menginstal *library* berikut
 
 ## Hasil Visualisasi
 <img width="868" height="547" alt="image" src="https://github.com/user-attachments/assets/27142777-a8ca-4c22-b1fe-a9552a62099c" />
+
+### Analisis Hasil Clustering
+Berdasarkan visualisasi *scatter plot* antara saldo (*balance*) dan jumlah pembelian (*purchases*), K-Means berhasil memisahkan nasabah ke dalam 4 segmen perilaku utama:
+* **Cluster 1 (Low Balance, Low Purchases):** Nasabah pasif. Ini adalah kelompok dominan yang menjaga saldo kredit mereka tetap rendah dan jarang melakukan transaksi pembelian dalam jumlah besar.
+* **Cluster 2 (High Balance, Low Purchases):** Nasabah tipe "penabung" (*savers*). Mereka membiarkan banyak dana/saldo mengendap di dalam akun mereka, tetapi sangat membatasi diri dalam melakukan transaksi perbelanjaan.
+* **Cluster 3 (Low Balance, High Purchases):** Nasabah aktif/konsumtif. Kelompok ini sangat sering menggunakan kartu kredit untuk transaksi pembelian yang cukup besar, sehingga saldo mengendap mereka cenderung rendah atau selalu diputarkan.
+* **Cluster 4 (High Balance, High Purchases):** Nasabah premium (*high-rollers*). Segmen eksklusif yang memiliki saldo tersimpan dalam jumlah sangat tinggi dan secara bersamaan rutin melakukan transaksi belanja bernilai fantastis.
