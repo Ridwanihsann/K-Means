@@ -25,6 +25,7 @@ Untuk menjalankan notebook ini, pastikan Anda telah menginstal *library* berikut
 7. **Visualisasi Hasil:** Menampilkan *scatter plot* dari hasil kluster beserta letak titik pusat (*centroid*) masing-masing kluster.
 
 ## Hasil Visualisasi
+<img width="695" height="547" alt="image" src="https://github.com/user-attachments/assets/653903a3-6c16-4fb5-a858-f24807a3e531" />
 
 
 # Implementasi K-Means Clustering: Credit Card Dataset
@@ -62,3 +63,4 @@ Untuk menjalankan notebook ini, pastikan Anda telah menginstal *library* berikut
 7. **Visualisasi Hasil:** Menampilkan *scatter plot* dari hasil kluster beserta letak titik pusat (*centroid*) masing-masing kluster.
 
 ## Hasil Visualisasi
+<img width="868" height="547" alt="image" src="https://github.com/user-attachments/assets/27142777-a8ca-4c22-b1fe-a9552a62099c" />
